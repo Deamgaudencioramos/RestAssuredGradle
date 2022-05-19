@@ -46,6 +46,6 @@ public class TesteResgistro extends TesteBase {
         when().
                 post(LOGIN_ENDPOINT).
         then().
-                body("error",is ("Missing password"));
+                body("error",is ("Missing passwor"));
     }
 }
